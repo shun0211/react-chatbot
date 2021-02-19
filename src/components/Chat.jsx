@@ -11,7 +11,7 @@ const Chat = (props) => {
   const classes = isQuestion ? 'p-chat__row' : 'p-chat__reverse';
 
   return(
-    <ListItem className={classes}>
+    <ListItem className={classes} id={"scroll-area"}>
       <ListItemAvatar>
         {isQuestion ? (
           <Avatar alt="icon" src={Sakai} />
